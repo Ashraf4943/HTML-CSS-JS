@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy',sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.nav{
+   /* background-color: gray; */
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.nav h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.page2{
+    display: flex;
+    gap:50px;
+}
+.page2 h3 a{
+    border-bottom:3px solid transparent;
+
+}
+.page2 h3 a:hover{
+    border-bottom: 3px solid white;
+    transition: border-bottom 2s ease;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.light-mode .nav h3 a {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .nav h3 a {
+    border-bottom:3px solid transparent;
+   
+}
+
+.light-mode .nav h3 a:hover {
+    border-bottom: 3px solid black;
+    transition: border-bottom 2s ease;
+}
+
+
+/* HOME PAGE */
+
+.home{
+    margin-top: 20px;
+    width: 100%;
+    height: 420px;
+    /* background-color: red;? */
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.my-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+.line1{
+    text-align: center;
+    /* font-size: 30px; */
+}
+
+.line2{
+    text-align: center;
+    font-size: 70px;
+}
+
+.line3{
+    text-align: center;
+    font-size: 70px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top: 10px;
+    height: 60px;
+    width: 150px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+}
+
+.button:hover{
+    background-color: wheat;
+}
+
+.light-mode button{
+    background-color: black;
+    color: white;
+}
+
+.light-mode button:hover{
+    background-color: black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
