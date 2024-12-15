@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    /* border: 1px solid; */
+    font-size: 20px;
+}
+
+/* Hero-Section */
+
+.hero-section{
+    height: 100vh;
+    padding: 20px 40px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hero-img{
+    width: 42%;
+}
+
+.content{
+    width: 42%;
+}
+
+.content p{
+    width: 80%;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.content h2{
+    font-size: 60px;
+}
+
+.hero-section .btn{
+    padding: 20px 40px;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    border: none;
+}
+
+/* features */
+
+.features{
+    margin: 100px 0;
+    /* background-color: red; */
+}
+
+.features .ft-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    /* background-color: black; */
+}
+
+.features .ft-items .left-ft, .right-ft{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features .ft-items  .content-ft{
+    margin-top: 0;
+}
+
+/* products */
+
+.main-products>h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.items{
+    margin-bottom: 10px;
+    padding: 30px;
+    width:25%
+}
+
+.sales{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    background-color: rgba(128, 224, 192, 0.997);
+    padding: 20px 0;
+}
+
+.sales .content{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content input{
+ 
+    padding:15px 20px;
+    width: 50%;
+    border: none;
+   
+ 
+}
+
+.content button{
+   
+    padding: 15px 20px;
+    font-weight: bold;
+    background-color: rgba(204, 68, 68, 0.863);
+    color: antiquewhite;
+    border:none
+}
+
+footer{
+    background-color:goldenrod;
+    margin: 50px 0;
+   margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+footer .content h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer .content p{
+color: gray;
+line-height: 10px;
+font-weight: bold;
+}
